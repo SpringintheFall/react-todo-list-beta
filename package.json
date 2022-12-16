@@ -36,11 +36,16 @@
     "strip-outer": "^1.0.1",
     "wrappy": "^1.0.2",
     "trim-repeated": "^1.0.0",
-    "pify": "^2.3.0"
+    "pify": "^2.3.0",
+    "homepage": "https://SpringintheFall.github.io/react-todo-list-beta"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start"
+    "start": "node index.js",
+    "test": "node index.js",
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
